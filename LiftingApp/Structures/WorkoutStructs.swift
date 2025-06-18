@@ -185,10 +185,10 @@ class ActiveSetDisplay: Identifiable, ObservableObject, Codable {
 public struct Exercise: Identifiable, Codable, Equatable {
     public var id: UUID
     
-    let name: String
-    let desc: String
-    let primaryMusclesWorked: [Muscles]
-    let secondaryMusclesWorked: [Muscles]
+    var name: String
+    var desc: String
+    var primaryMusclesWorked: [Muscles]
+    var secondaryMusclesWorked: [Muscles]
     
     init(id: UUID = UUID(), name: String = "default", desc: String = "", primaryMusclesWorked: [Muscles] = [], secondaryMusclesWorked: [Muscles] = []) {
         self.id = id

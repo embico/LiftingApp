@@ -23,6 +23,7 @@
 		D63DF7B42BAC9A230036C9D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DF7B32BAC9A230036C9D0 /* Extensions.swift */; };
 		D653A4AE2BCEF3060056C7B9 /* LiftingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D653A4AC2BCEF3060056C7B9 /* LiftingApp.xcdatamodeld */; };
 		D653A4B12BCF09750056C7B9 /* CD Records + helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653A4B02BCF09750056C7B9 /* CD Records + helper.swift */; };
+		D65AEBF52C7FE3230055EEAF /* CreateExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AEBF42C7FE3230055EEAF /* CreateExerciseView.swift */; };
 		D65E4E982BA49BF000E41D38 /* ActiveWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E4E972BA49BF000E41D38 /* ActiveWorkoutView.swift */; };
 		D665A1372B8FB08B00FB2043 /* RegisterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D665A1362B8FB08B00FB2043 /* RegisterAccountView.swift */; };
 		D665A1392B965EF500FB2043 /* ChooseExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D665A1382B965EF500FB2043 /* ChooseExerciseView.swift */; };
@@ -49,6 +50,7 @@
 		D6E87EF62C40876300D32177 /* FrontBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E87EF52C40876300D32177 /* FrontBodyView.swift */; };
 		D6F255C82BA513F4006D7AC2 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F255C42BA513F3006D7AC2 /* CustomFunctions.swift */; };
 		D6F255C92BA513F4006D7AC2 /* CustomViewObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F255C52BA513F3006D7AC2 /* CustomViewObjects.swift */; };
+		D6F6D90B2E0389F100312F71 /* KilmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6D90A2E0389ED00312F71 /* KilmanFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +85,7 @@
 		D63DF7B32BAC9A230036C9D0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D653A4AD2BCEF3060056C7B9 /* LiftingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiftingApp.xcdatamodel; sourceTree = "<group>"; };
 		D653A4B02BCF09750056C7B9 /* CD Records + helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CD Records + helper.swift"; sourceTree = "<group>"; };
+		D65AEBF42C7FE3230055EEAF /* CreateExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExerciseView.swift; sourceTree = "<group>"; };
 		D65E4E972BA49BF000E41D38 /* ActiveWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveWorkoutView.swift; sourceTree = "<group>"; };
 		D665A1362B8FB08B00FB2043 /* RegisterAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAccountView.swift; sourceTree = "<group>"; };
 		D665A1382B965EF500FB2043 /* ChooseExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseExerciseView.swift; sourceTree = "<group>"; };
@@ -112,6 +115,7 @@
 		D6E87EF52C40876300D32177 /* FrontBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontBodyView.swift; sourceTree = "<group>"; };
 		D6F255C42BA513F3006D7AC2 /* CustomFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFunctions.swift; sourceTree = "<group>"; };
 		D6F255C52BA513F3006D7AC2 /* CustomViewObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewObjects.swift; sourceTree = "<group>"; };
+		D6F6D90A2E0389ED00312F71 /* KilmanFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilmanFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 		D62BB9F82BD9DDAF00ABBAA6 /* VideoAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				D6F6D90A2E0389ED00312F71 /* KilmanFilter.swift */,
 				D63DF7B02BAC8CD50036C9D0 /* SelectVideoView.swift */,
 				D6E1668A2BE9C55400CE53B1 /* MainProcessor.swift */,
 				D6E1668C2BEAE2C500CE53B1 /* VideoCreator.swift */,
@@ -195,6 +200,17 @@
 			path = "Core Data";
 			sourceTree = "<group>";
 		};
+		D65AEBF32C7FDE3F0055EEAF /* CreationScreens */ = {
+			isa = PBXGroup;
+			children = (
+				D69769102B8539A500458370 /* EditRoutineView.swift */,
+				D69769122B868FCA00458370 /* EditWorkoutView.swift */,
+				D6D56FDC2B4CADA70040D4C4 /* SelectRoutineView.swift */,
+				D65AEBF42C7FE3230055EEAF /* CreateExerciseView.swift */,
+			);
+			path = CreationScreens;
+			sourceTree = "<group>";
+		};
 		D67369432B8BD5F600187549 /* LoadableData */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,12 +225,9 @@
 				D6D56FCD2B4C82F20040D4C4 /* LoginView.swift */,
 				D6D56FCB2B4C82F20040D4C4 /* LiftingAppApp.swift */,
 				D6A7CE022B62C8F7005ED2BA /* MainTabView.swift */,
-				D6D56FDC2B4CADA70040D4C4 /* SelectRoutineView.swift */,
 				D65E4E972BA49BF000E41D38 /* ActiveWorkoutView.swift */,
 				D6D56FDA2B4CABEF0040D4C4 /* SplashScreenView.swift */,
 				D6A7CE042B62D5CB005ED2BA /* StartWorkoutView.swift */,
-				D69769102B8539A500458370 /* EditRoutineView.swift */,
-				D69769122B868FCA00458370 /* EditWorkoutView.swift */,
 				D665A1362B8FB08B00FB2043 /* RegisterAccountView.swift */,
 				D665A1382B965EF500FB2043 /* ChooseExerciseView.swift */,
 				D63DF7AE2BAC7BA90036C9D0 /* AnalyticsView.swift */,
@@ -248,6 +261,7 @@
 				D62B55DF2C41C111001753C6 /* Body Views */,
 				31D1B17B2BA690590002D615 /* Settings */,
 				D6F255C72BA513F3006D7AC2 /* Structures */,
+				D65AEBF32C7FDE3F0055EEAF /* CreationScreens */,
 				D67369432B8BD5F600187549 /* LoadableData */,
 				D697690D2B8536DE00458370 /* Screens */,
 				D62BB9F82BD9DDAF00ABBAA6 /* VideoAnalysis */,
@@ -399,6 +413,7 @@
 			files = (
 				D653A4B12BCF09750056C7B9 /* CD Records + helper.swift in Sources */,
 				D6D56FDD2B4CADA70040D4C4 /* SelectRoutineView.swift in Sources */,
+				D65AEBF52C7FE3230055EEAF /* CreateExerciseView.swift in Sources */,
 				D67CC5062C6ED10400EE2E9D /* WorkoutStructs.swift in Sources */,
 				D6E87EF62C40876300D32177 /* FrontBodyView.swift in Sources */,
 				D68863C52C10FC01000848CA /* ReplaceExerciseView.swift in Sources */,
@@ -427,6 +442,7 @@
 				D679F4842BD1B91300377A12 /* CD Routine + Helper.swift in Sources */,
 				D6AF56392C013DB200BBCB0A /* ExerciseInfoView.swift in Sources */,
 				D69769112B8539A500458370 /* EditRoutineView.swift in Sources */,
+				D6F6D90B2E0389F100312F71 /* KilmanFilter.swift in Sources */,
 				31D1B17D2BA6907D0002D615 /* SettingsView.swift in Sources */,
 				D63DF7B12BAC8CD50036C9D0 /* SelectVideoView.swift in Sources */,
 				D62B55E12C41D1DF001753C6 /* BackBodyView.swift in Sources */,

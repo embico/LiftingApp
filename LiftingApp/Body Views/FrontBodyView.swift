@@ -184,6 +184,16 @@ struct FrontBodyView: View {
         }
     }
     
+    public func setPrimary(muscle: Muscles) {
+        
+    }
+    public func setSecondary(muscle: Muscles) {
+        
+    }
+    public func reset(muscle: Muscles) {
+        
+    }
+    
 }
 
 struct BVPreviewView: View {
